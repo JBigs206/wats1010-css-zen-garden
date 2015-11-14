@@ -21,21 +21,13 @@ body {
 	margin: 20px; 
 	padding: 0;
 	
-	 background-image: url('astronaut.png');
+	background-image: url('astronaut.png'), url('BlackHole.jpg'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-position: left center;
-	z-index:2;
+	background-position: left center, center;
+	
 	
 	}
-/*body{
-	background-image: url('DeepSpace.jpg'); 
-	
-	background-repeat: no-repeat;
-	position: absolute;
-	z-index:1;
-	
-}*/
 p { 
 	margin-top: 0; 
 	text-align: justify;
@@ -87,22 +79,20 @@ header h1 {
 	text-align: center;
 	left: 425px; 
 	
-	/*text-indent: 100%;*/
-	/*white-space: nowrap;*/
+	
 	position: relative;
 	font: sans-serif;
 	font-size: 200%;
 	}
 header h2 { 
-	/*background: transparent url(h2.gif) no-repeat top left; */
+	
 	margin-top: 28px; 
 	margin-bottom: 40px; 
 	width: 200px; 
 	height: 18px; 
 	text-align: center;
 	left: 435px;
-	/*text-indent: 100%;
-	white-space: nowrap;*/
+	
 	position: relative;
 	font: sans-serif;
 	font-size: 130%;
@@ -114,10 +104,7 @@ header {
 
 .summary {
 	clear: both; 
-	/*margin: 20px 20px 20px 10px; */
-	/*width: 160px; */
 	
-	/*float: right;*/
 	display: block;
 	width: 119px;
 	height: 107px;
@@ -140,7 +127,7 @@ header {
 	
 }
 .preamble {
-	color: #988F5E;
+	color: Gold;
 	clear: right; 
 	padding: 0px 0px 0 0px;
 	border-style: solid;
@@ -151,6 +138,8 @@ header {
     right: 700px;
 	background: black;
 	background-image: url('Stars.jpg');
+	background-position: center;
+	
 	
 	height:18px;
 	transition: 2s height;
@@ -173,7 +162,7 @@ header {
 }
 .explanation {
 	/*clear: right; */
-	color: #988F5E;
+	color: Gold;
 	padding: 0px 0px 0 0px;
 	border-style: solid;
 	border-color: gray;
@@ -183,6 +172,7 @@ header {
     right: 200px;
 	background: black;
 	background-image: url('Stars.jpg');
+	background-position: Left;
 	
 	height:18px;
 	transition: 2s height;
@@ -202,7 +192,7 @@ header {
 }
 .participation{
 	clear: right; 
-	color: #988F5E;
+	color: Gold;
 	padding: 0px 0px 0 0px;
 	border-style: solid;
 	border-color: gray;
@@ -212,6 +202,7 @@ header {
     right: 650px;
 	background: black;
 	background-image: url('Stars.jpg');
+	background-position: right;
 	
 	height:18px;
 	transition: 2s height;
@@ -231,7 +222,7 @@ header {
 }
 .benefits{
 	clear: right; 
-	color: #988F5E;
+	color: Gold;
 	padding: 0px 0px 0 0px;
 	border-style: solid;
 	border-color: gray;
@@ -241,6 +232,7 @@ header {
     right: 250px;
 	background: black;
 	background-image: url('Stars.jpg');
+	background-position: bottom;
 	
 	height:18px;
 	transition: 2s height;
@@ -260,7 +252,7 @@ header {
 }
 .requirements{
 	clear: right; 
-	color: #988F5E;
+	color: Gold;
 	padding: 0px 0px 0 0px;
 	border-style: solid;
 	border-color: gray;
@@ -270,6 +262,7 @@ header {
     right: 550px;
 	background: black;
 	background-image: url('Stars.jpg');
+	background-position: top;
 	
 	height:18px;
 	transition: 2s height;
@@ -302,6 +295,7 @@ footer a:link, footer a:visited {
 	position: absolute; 
 	top: 110px; 
 	right: 0;
+	
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
@@ -360,7 +354,7 @@ footer a:link, footer a:visited {
 	
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: Gold;
 	}
 .sidebar li a:visited {
 	color: #B3AE94;
